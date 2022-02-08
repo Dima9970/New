@@ -1,0 +1,938 @@
+body{
+    margin: 0 ;
+}
+
+
+  
+
+.big_head{
+    width: 100%;
+    height: 710px;
+    background-color: #9a9a9a;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+}
+
+.cont{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.head{
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*  Имя  в шапке сайта */
+
+.name{
+    font-size: 28px;
+    color: #ff8b38;
+    font-family: 'Open Sans', sans-serif;    user-select: none;
+  
+}
+.color_name{
+    color:#fff ;
+}
+
+
+/* навигация  */
+
+.nav{
+    user-select: none;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;}
+.nav1{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+    transition: .3s;
+}
+.nav1:last-child{
+    margin-right: 0;
+}
+
+.nav1:hover{
+    text-shadow: 1px 1px rgb(226, 127, 69);
+    
+}
+
+
+/* Текст в средине с лева  */
+
+.mainText{
+    display: flex;
+    height: 395px;
+    width: 100%;
+    max-width: 1100px;
+   
+   position: relative;
+    margin-top: 110px;
+}
+
+.leftText{
+ width: 750px;
+ height: 395px;
+ 
+}
+.nameGlobal{
+    line-height: 0.8;
+    font-size: 65px;
+    color: #ff8b38;
+    font-family: 'Open Sans', sans-serif;    user-select: none;
+}
+.color_Globall{
+    color:#fff
+}
+
+.text2{
+    margin-top: 35px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: lighter;
+}
+.text2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 65px;
+    background-color: #fff;
+    margin: 40px 2px;
+}
+.afterText2{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    color: #c6c6c6;
+    opacity: .8;
+
+}
+
+.but_Download{
+    margin-top: 40px;
+    font-size: 18;
+    color: #fff;
+    background-color: #9a9a9a;
+    padding: 13px 8px;
+    border: 1px solid #fff;
+    margin-left: 1.3px;
+    transition: .4s;
+    user-select: none;
+}
+.but_Download:hover{
+    background-color: #fff;
+    color: black;
+    
+}
+
+
+/* Правое поле для ввода */
+
+
+.rightInput{
+    height: 365px;
+    width: 350px;
+   
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.freeTrayl{
+      height: 53px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f5f5f5;
+      border-top-left-radius:  5px;
+      border-top-right-radius: 5px;
+}
+.textFordiv{
+    font-size: 20px;
+    color:black;
+    text-align: center;  
+    font-family:Arial, Helvetica, sans-serif; 
+    user-select: none;
+}
+.free{
+    font-size: 21px;
+    color: #ff8b38;
+    font-family:Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.inputBlock{
+    height: 252px;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blockForInput{
+height: 175px;
+
+text-align: center;
+}
+
+.input{
+width: 280px;
+height: 30px;
+margin-top: 35px;
+border-bottom:1px solid #d6d6d6 ;
+border-top: none;
+border-left: none;
+border-right: none;
+
+}
+
+.input:first-child{
+    margin-top: 0;
+}
+
+.but_left_menu{
+    width: 350px;
+    height: 60px;
+    border-bottom-left-radius:  5px;
+    border-bottom-right-radius:  5px;
+    background-color: #ff9b51;
+    border: none;
+    transition: .4s;
+}
+.textInButton{
+    transition: .2s;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;}
+.but_left_menu:hover{
+    background-color: #fc872e;
+}
+.but_left_menu:hover .textInButton{
+    text-shadow: 0 0 4px black;
+}
+
+
+
+
+/*Маленькая полоска с соц сетими  */
+
+
+.minBlock{
+    height: 105px;
+    width: 100%;
+    display: flex; 
+}
+
+/*Text */
+
+
+.socText{
+ font-size: 20px;
+ color: black;
+ font-weight: 700;
+ font-family: 'Open Sans', sans-serif;}
+
+.socText2{
+    font-size: 16px;
+    color: #c8c9ca;
+    font-family: 'Open Sans', sans-serif;}
+
+
+
+
+.socMedia{
+    height: 105px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+ 
+    
+}
+.imgSoc{
+    margin: 0;
+}
+
+.SocImgIcon{
+    width: 40px;
+    height: 40px;
+    margin-right: 60px;
+}
+.SocImgIcon:last-child{
+margin-right: 0;
+}
+
+/*Line HR <hr>*/
+
+.lineHr{
+    height: 3px;
+    background:linear-gradient( #b7b7b7,#d6d6d6,#eaeaea) ;
+    margin: 0;
+}
+
+
+
+/* Новое окно  */
+
+.nextWindow{
+    height: 590px;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.obertcaTab{
+    display: flex;
+    justify-content: space-between;
+}
+
+.TabBlock{
+    height: 330px;
+    display: block;
+}
+
+.tabBlock1{
+    user-select: none;
+    transition: .3s;
+    height: 106px;
+    width: 108px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-bottom: 1px;
+}
+.tabBlock1:first-child{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.tabBlock1:last-child{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.tabBlock1:hover{
+    background-color: #ff8b38;
+}
+
+.tab1{
+   
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;}
+
+
+.tabTextBlock{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tabtext1{
+    font-size: 20px;
+    font-weight: 720;
+
+}
+.tabtext2{
+    margin-top: 50px;
+    margin-bottom: 39px;
+    font-size: 16px;
+    color: #a6a7a9;
+}
+
+
+.TabBotton{
+    user-select: none;
+    padding: 15px 22px;
+    background-color: #ff8b38;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: .4s;
+}
+.TabBotton:hover{
+    background-color:#ee7722 ;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+
+/* Секция 3  */
+
+.subSection{
+    width: 100%;
+    height: 590px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.contForSubList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forSubImg{
+    width: 450px;
+    height: 300px;
+    background-color: gray;
+    box-shadow: 0px 12px 20px gray;
+    
+}
+
+
+.textSubListSection{
+    height: 368px;
+    
+}
+
+.zagSubList{
+    font-size: 20px;
+    font-weight: 680;
+    font-family: 'Open Sans', sans-serif;}
+
+.zagSubList::after{
+    height: 2px;
+    width: 64px;
+    display: block;
+    content: "";
+    background-color: #ff8b38;
+    margin: 30px 0;
+
+    
+}
+
+.subListText{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #97989b;
+    margin-bottom: 45px;
+}
+.tit{
+    line-height: 2;
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Open Sans', sans-serif}
+
+
+
+.title1{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #97989b;
+    margin-bottom: 25px;
+}
+.title2{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #97989b;
+    margin-bottom: 10px;
+}
+
+/*4 section*/
+
+.subSection.next{
+    background-color: #f5f5f5;
+}
+
+
+/*5 section 'Why This'*/
+
+.whyThis{
+    width: 100%;
+    height: 590px;
+    background-color: #fff;
+}
+
+.upWhy{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 68px;
+}
+.textWhy{
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+}
+.textWhy::after{
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: #ff8b38;
+}
+.textWhyDown{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: #86878b;
+}
+
+
+.DownWhy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxWhy1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #97989b;
+    text-align: center;
+    width: 352px;
+    height: 220px;
+   
+}
+.textWhyHeigt{
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+
+
+/* 6 section  */
+
+
+.subscrube{
+    background-color: #f5f5f5;
+    height: 875px;
+    width: 100%;
+}
+
+
+.textForSubscrube{
+ 
+    text-align: center;
+}
+
+.contSubBuy{
+ padding-top: 100px;
+ font-family: 'Raleway', sans-serif;
+ color: #000;
+ font-size: 30px;
+ font-weight: 500;
+}
+
+.titleBuyUp::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 64px;
+    background-color: #ff8b38;
+    margin: 30px auto;
+}
+
+.titleBuyDown{
+    font-size: 14px;
+    color: #97989b;
+    font-family: 'Open Sans', sans-serif
+}
+ 
+
+
+.buyPodpisca{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.buyBlock1{
+    height: 465px;
+    width: 345px;
+    margin-top: 80px;
+}
+
+.buyBlock1{
+    display: block;
+    text-align: center;
+}
+
+/*  блоки в нутри окон подписки */
+
+.blokInBlock1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    width: 100%;
+    height: 58px;
+    margin-bottom: 1px;
+    background-color: #333333;
+}
+
+.blokInBlock1.n2{
+
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+ height: 145px;
+ border-bottom: 4px solid #ff8b38 ;
+}
+
+.forNam{
+    
+    font-size: 90px;
+    line-height: 0.7;
+}
+
+
+.doll{
+    font-size: 30px;
+}
+.forFreeText{
+    font-size: 14px;
+    color: #adadad;
+    margin-top: 30px;
+}
+
+
+
+.blokInBlock1.n3{
+    font-family: 'Open Sans', sans-serif;
+    height: 40px;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #a4a5a8;
+    
+}
+
+
+
+
+/*Большой блок по центру с подпиской */
+.buyBlock1.mid{
+    height: 500px;
+}
+.orengBoxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-top: -1px;
+    background-color: #ff8b38;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+/* SayIng  блок */
+
+.saying {
+    background-color: #fff;
+    height: 590px;
+    width: 100%;
+}
+
+.upSaying{
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contForSayingText{
+    text-align: center;
+}
+
+
+.sayText1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+.sayText1::after{
+ display: block;
+ content: "";
+ height: 2px;
+ width: 64px;
+ background-color: #ff8b38;
+ margin: 30px auto;
+}
+
+.sayText2{
+    font-family: 'Open Sans', sans-serif;
+    color: #b7b7b7;
+    font-size: 14px;
+}
+
+
+.downSaying{
+    width: 1050px;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+   
+}
+
+.otzov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 130px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: #9e9e9e;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+.contforImg{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    
+}
+.krug{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #9a9a9a;
+}
+
+.nameOtzova{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:13px ;
+}
+
+.meneger{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #b7b7b7;
+    font-size: 13px;
+}
+
+.stuleAxe{
+    text-align: center;
+    height: 320px;
+    width: 100%;
+    background-color: #9a9a9a;
+}
+
+
+.textAxe1{
+    padding-top: 68px;
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+.textAxe1::after{
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 2px;
+    width: 64px;
+    margin: 30px auto
+}
+
+
+.textAxe2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: #d3d0d0;
+    font-size: 13px;
+
+}
+
+.butAxe{
+    margin-top: 28px;
+    background-color: #9a9a9a;
+    border: 2px solid #fff;
+    padding: 12px 26px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    transition: .3s;
+}
+
+
+.butAxe:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+.contacts{
+    width: 100%;
+    height: 610px;
+    background-color: #fff;
+}
+
+
+.contactUS{
+    display: flex;
+    justify-content: center;
+    height: 287px;
+    width: 100%;
+}
+
+.contForContUs{
+    text-align: center;
+    padding-top: 105px;
+}
+
+
+.titleUsUp{
+     font-size: 30px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 500;
+
+}
+
+.titleUsUp::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 64px;
+    background-color: #ff8b38;
+    margin: 30px auto;
+
+}
+
+.titleUsDown{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: #a0a0a0;
+    font-size: 13px;
+}
+
+
+.downConracts{
+    width: 100%;
+    height: 161px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contLeftBox{
+    display: block;
+    width: 530px;
+    align-items: center;
+   
+}
+ ::-webkit-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+         text-align: start;
+        
+        color: #d3d0d0;
+     }
+.inputCont{
+    color: #3f3f3f;
+    font-family: 'Open Sans', sans-serif;
+    height: 25px;
+    font-size: 18px;
+    border: none;
+    width: 528px;
+    border-bottom:1px solid #b6b6b6 ;
+   
+    
+}
+
+
+.forinputcont{
+      margin-bottom: 32px;
+}
+.forinputcont:last-child{
+    margin-bottom: 0;
+
+}
+
+
+.RightBoxMesseng{
+    resize: none;
+    min-height: 143px;
+    
+    font-size: 17px;
+    min-width: 510px;
+    
+    border: none;
+    border-bottom: 1px solid #b6b6b6;
+    user-select: none;
+}
+
+.butcontMess{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.butSendMessage{
+    padding: 15px 25px;
+    background-color: #fc872e;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    transition: .2s;
+  
+}
+
+.butSendMessage:hover{
+    background-color: #f87a1a;
+    box-shadow:1px 1px 1px #fc872e;
+
+}
+
+.buttom{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.imgbuttoms{
+ 
+    width: 350px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.endCont{
+    text-align:center;
+}
+
+.TheEnd{
+    padding-top: 4px;
+    color: #969696;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+
+}
